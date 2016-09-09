@@ -98,31 +98,3 @@ You want to decouple your system so that you can change individual pieces withou
 anything more than the individual piece.
 
 ## The Dependency Inversion Principle is the key to this goal.
-
-
-
-#Monsieur -----> Madame
-
-
-
-
-#                  ________________________
-#Monsieur  ------->|   Madame interface   |
-#                  |            |         |
-#                  |            |         |
-#                  |            |         |
-#                  |          Madame      |  
-#                  |----------------------          
-
-
-
-
-
-#____________________________________________
-#|Monsieur  -----------> Madame interface    |                          
-#|                                           |
-#|___________________________________________|
-#                  |
-#                  |
-#                  |
-#                Madame
